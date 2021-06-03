@@ -552,7 +552,7 @@ struct threadData* allocateThreadData()
 	return temp;
 }
 
-//Directory thread that iterates through directories and enqueues new directories into the directoryQueue and enqueues encountered files into the file Queue. Creates new threads each time directory or file is encountered.
+//Directory thread that iterates through directories and enqueues new directories into the directory Queue and enqueues encountered files into the file Queue. Creates new threads each time directory or file is encountered.
 void *directorySearch(void *A)
 {
 	struct threadData *param = A;
