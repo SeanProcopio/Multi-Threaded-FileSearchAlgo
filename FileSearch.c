@@ -1,13 +1,13 @@
+#include <pthread.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <fcntl.h> 
-#include <unistd.h>
 #include <sys/stat.h> 
+#include <unistd.h>
+#include <stdlib.h>
 #include <dirent.h> 
 #include <string.h>
+#include <fcntl.h> 
 #include <ctype.h>
-#include <pthread.h>
+#include <string.h>
 
 //Node structure that will be used to store file names and words in files.
 struct node
